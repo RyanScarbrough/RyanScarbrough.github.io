@@ -1,0 +1,80 @@
+body {
+   background-image: url(bg.jpg);
+   background-position-x: center;
+
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   color: black;
+   text-shadow: 1px 1px white;
+}
+
+input {
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+   width: 400px;
+   padding: 5px 0;
+   margin: 25px auto 0 auto;
+   border-radius: 10px;
+   background-color: rgba(235, 227, 236, 0.85);
+   box-shadow: 1px 1px 1px #88888888;
+}
+
+@media screen and (max-width: 450px) {
+   h1 {
+      width: 300px;
+   }
+}
+
+#formContainer {
+   margin: 25px auto;
+   height: fit-content;
+   width: 340px;
+   padding: 33px 0px;
+   border: 1.5px solid black;
+   border-radius: 20px;
+   background-color: rgba(235, 227, 236, 0.85);
+   box-shadow: 1px 1px 1px #88888888;
+   font-size: 1.1em;
+}
+
+input[type="submit"] {
+   padding: 5px 15px;
+   font-size: 0.85rem;
+}
+
+#pokemonContainer {
+   max-width: 2000px;
+   margin: 0 auto 25px auto;
+   padding: 0 5%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+}
+
+.pokemonTile {
+   border: 1px black solid;
+   border-radius: 10px;
+   padding: 10px 5px;
+   background-color: rgba(235, 227, 236, 0.85);
+   box-shadow: 1px 1px 1px #88888888;
+}
+
+img {
+   width: 150px;
+   height: 150px;
+   transition: all 0.4s;
+}
+
+@media screen and (max-width: 405px) {
+   img {
+   width: 125px;
+   height: 125px;
+   }
+}
+
+img:hover {
+   transform: scale(1.5);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Day 3</title>
+
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+      <link rel="stylesheet" type="text/css" href="style.css" />
+
+      <script src="pokemonNames.js"></script>
+      <script src="pokemonLoader.js"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+   <body>
+      <h1>Pokémon Gallery</h1>
+      <div id="formContainer">
+         <form onsubmit="return loadPokemon()">
+            <label>How many Pokémon: &nbsp;<input type="number" id="howMany" min="1" max="801" style="width: 3rem" /></label>
+            <br />
+            <br />
+            <input type="submit" />
+         </form>
+      </div>
+
+      <div id="pokemonContainer"></div>
+   </body>
+</html>
