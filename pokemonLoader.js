@@ -9,7 +9,7 @@ function loadPokemon() {
 
       newHtml += `<div class="pokemonTile">`;
       newHtml += `#${i}<br>`;
-      newHtml += `<img src="pokemonImages/${iString}.png" loading="lazy" alt="${pokemonNames[i]}">`;
+      newHtml += `<img src="pokemonImages/${iString}.png" alt="${pokemonNames[i]}">`;
       newHtml += `<br>${pokemonNames[i]}`;
       newHtml += `</div>`;
    }
