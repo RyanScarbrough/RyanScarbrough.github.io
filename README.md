@@ -56,7 +56,7 @@ Details:
 ### Node.js Database Mirroring
 https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/DatabaseCopier/databaseCopier.js
 
-Uses: **Node.js**, **Javascript**
+Uses: **Node.js**, **Javascript**, **MongoDB**
 
 Details:
 - Javascript project that mirrors the database from [Universalis](https://universalis.app/) to a locally hosted MongoDB database
