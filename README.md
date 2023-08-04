@@ -19,5 +19,6 @@ Details:
 https://ryanscarbrough.github.io/Quizzer/index.html
 
 Details:
-- Quizzer that loads questions from a questionBank array. (Inside questionBank.js)
-- Uses JavaScript to create HTML divs from question bank and appends questions to page. (Inside script.js)
+- Quizzer that loads questions from a questionBank array. (Inside [questionBank.js](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/Quizzer/questionBank.js))
+- Uses JavaScript to create HTML divs from question bank and appends questions to page. (Inside [script.js](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/Quizzer/script.js))
+
