@@ -46,6 +46,6 @@ https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/DatabaseCop
 Uses: **Node.js**, **Javascript**
 
 Details:
-- Javascript project that mirrors the database from [Universalis](https://universalis.app/) to a locally hosted MongoDB database.
-- Uses REST API to create a updated MongoDB copy, then connects to Universalis's websocket to keep MongoDB database up-to-date.
-- Universalis documentation here: https://docs.universalis.app/
+- Javascript project that mirrors the database from [Universalis](https://universalis.app/) to a locally hosted MongoDB database
+- Uses Universalis's REST API to create a local MongoDB copy, then connects to Universalis's WebSocket API to keep MongoDB database up-to-date
+- Universalis documentation located here: https://docs.universalis.app/
