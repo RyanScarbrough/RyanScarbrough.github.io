@@ -12,6 +12,6 @@ Details:
 https://ryanscarbrough.github.io/PokemonLoader/index.html
 
 Details:
-- Loads a select number of pokemon images & names
+- Loads a select number of pokemon images & names with JavaScript and basic HTML
 
 ### Quizzer
