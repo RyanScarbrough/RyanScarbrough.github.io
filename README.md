@@ -4,6 +4,7 @@
 https://ryanscarbrough.github.io/CIS89A/final.html
 
 Details:
+- Vacation destination web page (Bali, Indonesia)
 - Was requred to use a table to position the information
 
 ## Random Side Projects
@@ -15,3 +16,7 @@ Details:
 - Loads a select number of pokemon images & names with JavaScript and basic HTML
 
 ### Quizzer
+https://ryanscarbrough.github.io/Quizzer/index.html
+
+Details:
+- Quizzer that loads questions from a questionBank array. (Inside questionBank.js)
