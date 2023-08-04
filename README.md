@@ -13,15 +13,17 @@ Details:
 
 ### Weekly Planner App
 https://weekly-planner-rs-63229654947f.herokuapp.com/
-[
-Source code: [Both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner), [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.css), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js)
 
 Uses: **React**, **Express**, **Javascript**
+
+Source code: [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.css), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js), [both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner)
 
 ### Pokemon Loader
 https://ryanscarbrough.github.io/PokemonLoader/index.html
 
 Uses: **HTML**, **CSS**, **Javascript**
+
+Source code: [here](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/PokemonLoader)
 
 Details:
 - Loads a select number of pokemon images & names using JavaScript and basic HTML
@@ -32,6 +34,8 @@ https://ryanscarbrough.github.io/Quizzer/index.html
 
 Uses: **HTML**, **CSS**, **Javascript**
 
+Source code: [here](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/Quizzer)
+
 Details:
 - Quizzer that loads questions from a questionBank array. (Inside [questionBank.js](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/Quizzer/questionBank.js))
 - Uses JavaScript to create HTML divs from question bank and appends questions to page. (Inside [script.js](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/Quizzer/script.js))
@@ -40,6 +44,8 @@ Details:
 https://ryanscarbrough.github.io/JavascriptChallenges/index.html
 
 Uses: **HTML**, **CSS**, **Javascript**
+
+Source code: [here](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/JavascriptChallenges)
 
 Details:
 - UI for inputting function arguments to get function outputs of Javascript functions completed from challenges
