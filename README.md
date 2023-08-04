@@ -7,7 +7,7 @@ Details:
 - Vacation destination details (Bali, Indonesia)
 - Was requred to use a table to position the information
 
-## Random Side Projects
+## Misc. Side Projects
 
 ### Pokemon Loader
 https://ryanscarbrough.github.io/PokemonLoader/index.html
