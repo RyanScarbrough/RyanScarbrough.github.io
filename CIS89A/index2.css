@@ -1,0 +1,44 @@
+Body
+{
+	text-indent: 10px;
+	background-color: #fffbfa;
+}
+H1, H2
+{
+	margin-top: 25px;
+
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: 800;
+}
+A
+{
+	font-family: Verdana;
+	color: #49c6e5;
+}
+A:hover
+{
+	color: #00bd9d;
+}
+
+ul {
+  list-style-type: none;
+  margin: 2px;
+  margin-top: 15px;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  width: 400px;
+  padding-bottom: 4px;
+  margin-bottom: 2px;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a:hover {
+  font-size: 17px;
+}

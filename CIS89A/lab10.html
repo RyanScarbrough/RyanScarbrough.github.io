@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			Isaac Newton
+		</title>
+
+		<!-- Internal styles -->
+		<style>
+			Body
+			{
+				background-image: url('imgs/greek-vase.png');
+				background-color: #fcfbfb;
+			}
+			Table
+			{
+				width: 1000px;
+				border-spacing: 10px 16px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			Caption
+			{
+				font-family: Arial, sans-serif;
+				font-size: 1.5em;
+				line-height: 2.2em;
+				text-align: center;
+				margin-top: -16px;
+			}
+			Td, Input, P
+			{
+				font-family: Helvetica;
+				font-size: 0.93em;
+			}
+			#BottomLinkContainer
+			{
+				width: 1000px;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				padding-right: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<br />
+		<hr />
+		<br />
+		<form>
+			<table>
+				<caption> Form Submmision </caption>
+				<tr>
+					<td> Please give us your name: </td>
+					<td> <input type="text" name="user-name" size="25" maxlength="30" placeholder="Name" /> </td>
+				</tr>
+				<tr>
+					<td> Current mailing address: </td>
+					<td> <textarea name="mailing-address" rows="4" cols="60" placeholder="Mailing address"></textarea> </td>
+				</tr>
+				<tr>
+					<td> City you want to visit: </td>
+					<td>
+						<select name="city-to-visit">
+							<option disabled selected value> -- Select an option -- </option>
+							<option value="Tokyo"> Tokyo </option>
+							<option value="Kyoto"> Kyoto </option>
+							<option value="Kanazawa"> Kanazawa </option>
+							<option value="Nagasaki"> Nagasaki </option>
+							<option value="Nara"> Nara </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Season you wish to visit on: </td>
+					<td>
+						<label> <input type="radio" name="season-to-visit" value="spring" checked="checked" /> Spring </label>
+						<br />
+						<label> <input type="radio" name="season-to-visit" value="summer" /> Summer </label>
+						<br />
+						<label> <input type="radio" name="season-to-visit" value="fall" /> Fall </label>
+						<br />
+						<label> <input type="radio" name="season-to-visit" value="winter" /> Winter </label>
+						<br />
+					</td>
+				</tr>
+				<tr>
+					<td> Do you require handicap assistance? </td>
+					<td> <label> <input type="checkbox" name="handicapped" value="true" /> Check if yes </label> </td>
+				</tr>
+				<tr>
+					<td> Reset all entries </td>
+					<td> <input type="reset" value="Erase all entries" /> </td>
+				</tr>
+				<!--
+				<tr>
+					<td colspan="2" style="text-align: center; padding: 22px 10px 0px 0px;"> <input type="button" value="Submit request" /> </td>
+				</tr>
+				-->
+			</table>
+		</form>
+		<hr />
+
+		<p id="BottomLinkContainer">
+			<a href="index.html">Back to index</a>
+		</p>
+
+	</body>
+
+</html>

@@ -1,0 +1,60 @@
+Body
+{
+	margin-left: 18px;
+	background-color: #fffbfa;
+}
+H1, H2
+{
+	margin-top: 25px;
+	margin-bottom: 10px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+H1
+{
+	color: #3eb6ae;
+	font-size: 1.65em;
+}
+H2
+{
+	color: #29bce0;
+	font-size: 1.56em;
+}
+Ul
+{
+	list-style-image: url(imgs/bullet-icon-small.png);
+	list-style-position: inside;
+	margin-left: 2px;
+	margin-top: 15px;
+	padding: 0px;
+}
+Li
+{
+	border-bottom: 1px solid #ccc;
+	width: 410px;
+	padding-bottom: 8px;
+	margin-bottom: 6px;
+}
+Li:last-child
+{
+	border: none;
+}
+Li A:hover
+{
+	font-size: 1.02em;
+}
+A
+{
+	color: #49c6e5;
+	font-family: Verdana, sans-serif;
+}
+A:hover
+{
+	color: #00bd9d;
+}
+#BottomLink
+{
+	color: #3eb6ae;
+	font-size: 1.02em;
+}

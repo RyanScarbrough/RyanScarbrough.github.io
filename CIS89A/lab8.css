@@ -1,0 +1,104 @@
+Body
+{
+	background-image: url('imgs/diamond-upholstery.png');
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	min-width: 820px;
+}
+#TopLinkList
+{
+	list-style-position: inside;
+	text-align: center;
+	line-height: 33px;
+	font-size: 1.25em;
+	margin: -5px 33px -5px 0px;
+}
+.ImageContainer Img
+{
+	border: 2px solid black;
+}
+.ImageContainerCenter
+{
+	text-align: center;
+}
+.ImageContainerLeft
+{
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+}
+.ImageContainerRight
+{
+	float: right;
+	text-align: center;
+	margin-left: 50px;
+}
+.ImageText
+{
+	font-size: 0.95em;
+	margin: -8px 0px 25px;
+}
+.DescriptionContainer
+{
+	line-height: 25px;
+}
+.BreakBelowImage
+{
+	clear: both;
+}
+.SectionLinkContainer
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.BottomLinkContainer, #CopyrightName
+{
+	text-align: center;
+}
+H1, H2
+{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+H1#Japan
+{
+	margin-top: -10px;
+}
+P, Dl, Ul
+{
+	font-family: Georgia, serif;
+	font-size: 1.10em;
+	text-indent: 2px;
+}
+Dl#JapanDates
+{
+	margin-top: 28px;
+	margin-bottom: 33px;
+}
+Dt
+{
+	font-weight: bold;
+}
+Ul
+{
+	line-height: 25px;
+}
+A
+{
+	color: navy;
+}
+A:hover
+{
+	color: #be0029;
+}
+HR
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+#BottomHR
+{
+	margin-top: 23px;
+	margin-bottom: 25px;
+}

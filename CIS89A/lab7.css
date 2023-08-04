@@ -1,0 +1,90 @@
+Body
+{
+	background-image: url('imgs/diamond-upholstery.png');
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	min-width: 820px;
+}
+.TopLinkContainer
+{
+	text-align: center;
+	margin-bottom: -5px;
+	font-size: 1.15em;
+}
+.ImageContainer Img
+{
+	border: 2px solid black;
+}
+.ImageContainerCenter
+{
+	text-align: center;
+}
+.ImageContainerLeft
+{
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+}
+.ImageContainerRight
+{
+	float: right;
+	text-align: center;
+	margin-left: 50px;
+}
+.ImageText
+{
+	font-size: 0.95em;
+	margin: -8px 0px 25px;
+}
+.DescriptionContainer
+{
+	line-height: 25px;
+}
+.BreakBelowImage
+{
+	clear: both;
+}
+.SectionLinkContainer
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.BottomLinkContainer
+{
+	text-align: center;
+	padding-bottom: 15px;
+}
+H1
+{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+H1#Japan
+{
+	margin-top: -10px;
+}
+P
+{
+	font-family: Georgia, serif;
+	font-size: 1.10em;
+	text-indent: 2px;
+}
+A
+{
+	color: navy;
+}
+A:hover
+{
+	color: #be0029;
+}
+HR
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+#BottomHR
+{
+	margin-top: 31px;
+	margin-bottom: 31px;
+}

@@ -1,0 +1,26 @@
+Body
+{
+	background-color: #fff5d0;
+	color: black;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+P
+{
+	background-color: #f6b3bf;
+	color: darkgreen;
+}
+Q
+{
+	font-weight: bold;
+}
+#sky
+{
+	background-color: #87ceeb;
+	color: maroon;
+}
+#longquote
+{
+	border: 8px solid gray;
+	padding: 16px;
+}
