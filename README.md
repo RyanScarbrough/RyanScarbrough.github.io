@@ -53,7 +53,7 @@ Details:
 - Form submission utilizes callback functions to use the same function for every form ([script.js](https://ryanscarbrough.github.io/JavascriptChallenges/script.js))
 - To use: input arguments then click Submit for the corresponding function's output
 
-### Node.js Universalis Database Copier
+### Node.js Database Mirroring
 https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/DatabaseCopier/databaseCopier.js
 
 Uses: **Node.js**, **Javascript**
