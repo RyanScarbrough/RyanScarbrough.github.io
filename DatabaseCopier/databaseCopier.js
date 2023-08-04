@@ -199,71 +199,8 @@ function connectToUniversalis() {
 
 				insertSalesEntriesIntoMongoDB(itemID, entriesWithIds, false, "sales/add")
 
-			} else {
-				// Sometimes sales messages for an item come right before its listing message.
-				// Rather than complicating things by creating its sales history here and adding to it,
-				// The listing message will just create its sales history database for the next time a sale comes in.
-
-				// console.log('\x1b[31m%s\x1b[0m', "Could not update sales data for item #" + itemID + ", database doesn't exist.");
 			}
 		}
-
-	  //   fetch('https://universalis.app/api/v2/Primal/' + message.item)
-			// .then((response) => response.json())
-			// .then((data2) => {
-
-		 //    console.log("");
-		 //    console.log("New listed items calculation!");
-		 //    console.log("World [" + message.world + "] : " + worldName);
-		 //    console.log("Item [" + message.item + "] : " + itemName);
-
-		 //    let hqListings = [];
-		 //    let nqListings = [];
-
-		 //    message.listings.forEach(listingItem => {
-		 //    	if(listingItem.hq === true) {
-		 //    		hqListings.push(listingItem);
-		 //    	} else {
-		 //    		nqListings.push(listingItem);
-		 //    	}
-		 //    })
-
-		 //    if(hqListings.length > 0) {
-			//     const cheapestHQListing = hqListings[0];
-			//     var cheapestHQListingPrice = hqListings[0].pricePerUnit * 1.05;
-			//     var cheapestHQListingQuantity = hqListings[0].quantity;
-
-			//     console.log("Cheapest HQ Listing:");
-			//     console.log("Buying price: " + cheapestHQListingPrice + " x " + cheapestHQListingQuantity);
-			//     console.log(cheapestHQListing);
-		 //    }
-
-		 //    if(nqListings.length > 0) {
-			//     const cheapestNQListing = nqListings[0];
-			//     var cheapestNQListingPrice = nqListings[0].pricePerUnit * 1.05;
-			//     var cheapestNQListingQuantity = nqListings[0].quantity;
-
-			//     console.log("Cheapest NQ Listing:");
-			//     console.log("Buying price: " + cheapestNQListingPrice + " x " + cheapestNQListingQuantity);
-			//     console.log(cheapestNQListing);
-		 //    }
-
-			// 	console.log("Market board sales data:");
-			// 	console.log("Average HQ Price: " + data2.averagePriceHQ);
-			// 	console.log("Average NQ Price: " + data2.averagePriceNQ);
-			// 	console.log(" ---- ");
-
-			//     if(hqListings.length > 0) {
-			//     	const profit = data2.averagePriceHQ * cheapestHQListingQuantity - cheapestHQListingPrice * cheapestHQListingQuantity;
-
-			//     	printProfit(profit);
-			//     }
-			//     if(nqListings.length > 0) {
-			//     	const profit = data2.averagePriceNQ * cheapestNQListingQuantity - cheapestNQListingPrice * cheapestNQListingQuantity;
-
-			//     	printProfit(profit);
-			//     }
-			// })
 	});
 }
 
@@ -575,17 +512,4 @@ function logError(customMessage, error) {
 ///////////////////////
 function salesEntryStringify(salesEntry) {
 	return salesEntry.worldID + "-" + salesEntry.timestamp + "-" + salesEntry.pricePerUnit + "-" + salesEntry.quantity;
-}
-
-///////////////////////
-function printProfit(profit) {
-	if(profit > 5000) {
-		console.log('\x1b[34m%s\x1b[0m', "HQ Profit: " + profit)
-	} else if (profit > 1000) {
-		console.log('\x1b[32m%s\x1b[0m', "HQ Profit: " + profit)
-	} else if (profit < 0) {
-		console.log('\x1b[31m%s\x1b[0m', "HQ Profit: " + profit)
-	} else {
-		console.log('\x1b[33m%s\x1b[0m', "HQ Profit: " + profit)
-	}
 }
