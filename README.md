@@ -4,7 +4,7 @@
 https://ryanscarbrough.github.io/CIS89A/final.html
 
 Details:
-- Vacation destination web page (Bali, Indonesia)
+- Vacation destination details (Bali, Indonesia)
 - Was requred to use a table to position the information
 
 ## Random Side Projects
