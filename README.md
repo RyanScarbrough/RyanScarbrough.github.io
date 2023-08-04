@@ -31,3 +31,11 @@ Details:
 - Javascript functions located in [challenges.js](https://ryanscarbrough.github.io/JavascriptChallenges/challenges.js)
 - Form submission utilizes callback functions to use the same function for every form ([script.js](https://ryanscarbrough.github.io/JavascriptChallenges/script.js))
 - To use: input arguments then click Submit for the corresponding function's output
+
+### Node.js Database Copier
+https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/DatabaseCopier/databaseCopier.js
+
+Details:
+- Javascript project that mirrors the database from [Universalis](https://universalis.app/) to a locally hosted MongoDB database.
+- Uses REST API to initially create a updated MongoDB copy, then connects to Universalis's websocket to keep information up-to-date.
+- Universalis documentation here: https://docs.universalis.app/
