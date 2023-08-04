@@ -14,7 +14,7 @@ const quizName = "Some random questions loaded from a question bank."
 const questionBank = [];
 
 questionBank.push(new Question("What is 1 + 1?", ["4", "1", "3", "2"], 4));
-questionBank.push(new Question("What is the current ECMAScript version?", ["8", "5", "12", "10"], 3));
+questionBank.push(new Question("What is the current ECMAScript version?", ["8", "5", "14", "10"], 3));
 questionBank.push(
    new Question(
       "Who is the founder of CSS?",
