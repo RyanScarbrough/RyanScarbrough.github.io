@@ -11,6 +11,13 @@ Details:
 
 ## Misc. Side Projects
 
+### Weekly Planner App
+https://weekly-planner-rs-63229654947f.herokuapp.com/
+[
+Source code: [Both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner), [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.css), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js)
+
+Uses: **React**, **Express**, **Javascript**
+
 ### Pokemon Loader
 https://ryanscarbrough.github.io/PokemonLoader/index.html
 
