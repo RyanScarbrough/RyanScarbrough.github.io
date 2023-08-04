@@ -9,7 +9,7 @@ Details:
 - Vacation destination webpage (Bali, Indonesia), using basic HTML / CSS
 - Was requred to use a table to position the information
 
-## Misc. Side Projects
+## Misc. Web Projects
 
 ### Weekly Planner App
 https://weekly-planner-rs-63229654947f.herokuapp.com/
