@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bson": "^4.7.0",
+    "mongodb": "^4.9.1",
+    "node-fetch": "^3.2.10",
+    "serialize-error": "^11.0.0",
+    "ws": "^8.8.1"
+  }
+}
