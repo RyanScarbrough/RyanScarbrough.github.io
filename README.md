@@ -16,7 +16,7 @@ https://weekly-planner-rs-63229654947f.herokuapp.com/
 
 Uses: **React**, **Express**, **Javascript**
 
-Source code: [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.css), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js), [both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner)
+Source code: [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.js), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js), [both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner)
 
 ### Pokemon Loader
 https://ryanscarbrough.github.io/PokemonLoader/index.html
