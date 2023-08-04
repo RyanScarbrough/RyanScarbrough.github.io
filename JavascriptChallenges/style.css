@@ -1,0 +1,77 @@
+:root {
+   --main-color: rgb(69, 91, 161);
+}
+
+body {
+   font-family: "Work Sans", sans-serif;
+   text-align: center;
+   padding: 0 50px;
+}
+
+input {
+   font-family: "Work Sans", sans-serif;
+}
+
+textarea {
+   font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+   margin: 25px 0;
+   color: var(--main-color);
+}
+
+.challenge {
+   margin: 0 auto 25px auto;
+   max-width: 900px;
+   border: 1px solid black;
+   border-color: var(--main-color);
+   border-radius: 10px;
+   padding: 35px;
+   text-align: left;
+}
+
+.title {
+   font-size: 1.2rem;
+   font-weight: 500;
+   margin-bottom: 15px;
+   color: var(--main-color);
+}
+
+.description {
+   font-family: Helvetica, sans-serif;
+   font-weight: 300;
+   margin-top: 15px;
+}
+
+.inputs {
+   font-weight: 500;
+   margin-top: 15px;
+   color: var(--main-color);
+}
+
+input[type="text"] {
+   width: 100%;
+}
+
+input[type="submit"] {
+   margin: 5px 0;
+   padding: 8px 16px;
+   color: white;
+   border: none;
+   background-color: var(--main-color);
+}
+input[type="submit"]:hover {
+   background-color: rgb(39, 49, 83);
+}
+
+.output {
+   font-weight: 500;
+   max-width: 600px;
+   color: var(--main-color);
+}
+
+.output textarea {
+   width: 100%;
+   resize: none;
+}

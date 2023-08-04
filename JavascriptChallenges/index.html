@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script src="challenges.js"></script>
+      <script src="script.js"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Javascript Challenges</title>
+   </head>
+   <body>
+      <h1>Javascript Challenges</h1>
+      <!-- 1st Challenge -->
+      <div class="challenge">
+         <div class="title">Clean the room function.</div>
+         <div class="description">
+            <p>Description:</p>
+            <p>
+               Given an input of [1, 2, 4, 591, 392, 391, 2, 5, 10, 2, 1, 1, 1, 20, 20], make a function that organizes
+               these into individual arrays that are ordered.
+            </p>
+            <p>
+               For example answer(ArrayFromAbove) should return: [[1, 1, 1, 1], [2, 2, 2], 4, 5, 10, [20, 20], 391, 392,
+               591].
+            </p>
+            <p>
+               Bonus: Make it so it organizes strings differently from number types. i.e. [1, "2", "3", 2] should return
+               [[1, 2], ["2", "3"]].
+            </p>
+         </div>
+         <form onsubmit="return submitChallengeForm(event, organizeArray, 1, 'Array')">
+            <div class="inputs">
+               <label
+                  ><p>Array of numbers/strings:</p>
+                  <input type="text"
+               /></label>
+            </div>
+            <p><input type="submit" /></p>
+            <div class="output">
+               <p>Output:</p>
+               <textarea rows="5"></textarea>
+            </div>
+         </form>
+      </div>
+      <!-- 2nd Challenge -->
+      <div class="challenge">
+         <div class="title">Find array sums function.</div>
+         <div class="description">
+            <p>Description:</p>
+            <p>
+               Write a javascript function that takes an array of numbers and a target number. The function should find
+               two different numbers in the array that, when added together, give the target number.
+            </p>
+            <p>For example: answer([1, 2, 3], 4) should return [1, 3].</p>
+         </div>
+         <form onsubmit="return submitChallengeForm(event, findSums, 2, 'Array', 'Number')">
+            <div class="inputs">
+               <label
+                  ><p>Array of numbers:</p>
+                  <input type="text"
+               /></label>
+               <label
+                  ><p>Target number:</p>
+                  <input type="text"
+               /></label>
+            </div>
+            <p><input type="submit" /></p>
+            <div class="output">
+               <p>Output:</p>
+               <textarea rows="5"></textarea>
+            </div>
+         </form>
+      </div>
+      <!-- 3rd Challenge -->
+      <div class="challenge">
+         <div class="title">Hex / rgb conversion function.</div>
+         <div class="description">
+            <p>Description:</p>
+            <p>
+               Write a function that converts HEX to RGB. Then Make that function auto-dect the formats so that if you
+               enter HEX color format it returns RGB and if you enter RGB color format it returns HEX.
+            </p>
+         </div>
+         <form onsubmit="return submitChallengeForm(event, hexRGBConversion, 1, 'String')">
+            <div class="inputs">
+               <label
+                  ><p>Hex/rgb string:</p>
+                  <input type="text"
+               /></label>
+            </div>
+            <p><input type="submit" /></p>
+            <div class="output">
+               <p>Output:</p>
+               <textarea rows="5"></textarea>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
