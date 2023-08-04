@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Quizzer</title>
+      <meta charset="UTF-8" />
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script src="questionBank.js" defer></script>
+      <script src="script.js" defer></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   </head>
+   <body>
+      <h1>Quiz Web App</h1>
+      <div id="quiz-container">
+         <h2>"Quiz name"</h2>
+         <div id="total-score"></div>
+         <form onsubmit="return submitQuiz()">
+            <div id="all-questions"></div>
+            <input type="submit" value="Submit Quiz" />
+         </form>
+      </div>
+   </body>
+</html>
