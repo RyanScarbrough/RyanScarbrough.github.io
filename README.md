@@ -14,6 +14,7 @@ https://ryanscarbrough.github.io/PokemonLoader/index.html
 
 Details:
 - Loads a select number of pokemon images & names using JavaScript and basic HTML
+- Uses JavaScript to create HTML divs. (Inside [pokemonLoader.js](https://ryanscarbrough.github.io/PokemonLoader/pokemonLoader.js))
 
 ### Quizzer
 https://ryanscarbrough.github.io/Quizzer/index.html
