@@ -5,6 +5,8 @@ https://ryanscarbrough.github.io/CIS89A/final.html
 
 Uses: **HTML**, **CSS**
 
+Source code: [here](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/CIS89A/final.html)
+
 Details:
 - Vacation destination webpage (Bali, Indonesia), using basic HTML / CSS
 - Was requred to use a table to position the information
