@@ -14,7 +14,7 @@ Details:
 ### Weekly Planner App
 https://weekly-planner-rs-63229654947f.herokuapp.com/
 
-Uses: **React**, **Express**, **Javascript**
+Uses: **React**, **Express**, **Javascript**, **MongoDB**
 
 Source code: [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.js), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js), [both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner)
 
