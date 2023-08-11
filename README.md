@@ -1,4 +1,4 @@
-# For Cyclone Interactive - Ryan Scarbrough Projects
+# Ryan Scarbrough Projects
 
 ## CIS 89A - Web Page Development Final Project
 https://ryanscarbrough.github.io/CIS89A/final.html
