@@ -26,7 +26,7 @@ if (session_status() === PHP_SESSION_NONE) {
 </nav>
 
 <script>
-// Make class name 'current' to the nav link currently being visited
+// Make the nav link currently being visited have the class name 'current', which will make it the color blue
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL && document.links[i].className != 'logo-link') {
         document.links[i].className = 'current';
