@@ -13,6 +13,19 @@ Details:
 
 ## Misc. Web Creations
 
+### PHP Login System (MySQL)
+https://php-login-f3f568530bb4.herokuapp.com/index.php
+
+Uses: **PHP**, **MySQL**
+
+Source code: [login](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/PHPLoginSystem/includes/login.inc.php), [signup](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/PHPLoginSystem/includes/signup.inc.php), [everything else](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/PHPLoginSystem)
+
+Details:
+- Database created and tested with MySQL queries ([img](https://ibb.co/YcRZkBC)).
+- PHP connects to MySQL database and sends queries to create users and verify users for signups and logins.
+- Uses MySQL prepared statements and hashed passwords to protect from SQL injections and database hackers.
+- Uses a PHP session to keep the user logged in.
+
 ### Weekly Planner App
 https://weekly-planner-rs-63229654947f.herokuapp.com/
 
