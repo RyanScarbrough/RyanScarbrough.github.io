@@ -34,8 +34,9 @@ Uses: **React**, **Express**, **Javascript**, **MongoDB**
 Source code: [front-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Frontend/src/App.js), [back-end](https://github.com/RyanScarbrough/ryanscarbrough.github.io/blob/main/WeeklyPlanner/Backend/index.js), [both](https://github.com/RyanScarbrough/ryanscarbrough.github.io/tree/main/WeeklyPlanner)
 
 Details:
-- An ideal I came up with as a project to program on my own
-- Stores information in a NoSQL database on MongoDB Atlas
+- A fun ideal I came up with as a project to program with React
+- Uses Express.js for the backend web application
+- Puts task data in a MongoDB database stored on MongoDB Atlas
 
 ### Pokemon Loader
 https://ryanscarbrough.github.io/PokemonLoader/index.html
